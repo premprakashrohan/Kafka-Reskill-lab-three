@@ -1,23 +1,10 @@
 {
-  "namespace": "com.ibm.avro.model.V1",    
+  "namespace": "com.ibm.avro.V1.model",    
   "type": "record",
   "name": "CustomObject",
   "version":2,
   "fields": [
-    {
-      "name": "id",
-      "type": "string"
-     
-    },
-    {
-      "name": "invoiceNumber",
-      "type": "string"
-     
-    }, {
-      "name": "stockCode",
-      "type": "string"
-     
-    }, {
+   {
       "name": "description",
       "type": "string"
      
@@ -26,19 +13,7 @@
       "type": "string"
      
     }, {
-      "name": "invoiceDate",
-      "type": "string"
-     
-    }, {
       "name": "unitPrice",
-      "type": "string"
-     
-    }, {
-      "name": "customeId",
-      "type": "string"
-     
-    }, {
-      "name": "countryName",
       "type": "string"
      
     }
