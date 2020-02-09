@@ -1,0 +1,48 @@
+{
+  "namespace": "com.ibm.avro.model",    
+  "type": "record",
+  "name": "CustomObject",
+  "version":2,
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "invoiceNumber",
+      "type": "string",
+      "avro.java.string": "String"
+    }, {
+      "name": "stockCode",
+      "type": "string",
+      "avro.java.string": "String"
+    }, {
+      "name": "description",
+      "type": "string",
+      "avro.java.string": "String"
+    }, {
+      "name": "quantity",
+      "type": "string",
+      "avro.java.string": "String"
+    }, {
+      "name": "invoiceDate",
+      "type": "string",
+      "avro.java.string": "String"
+    }, {
+      "name": "unitPrice",
+      "type": "string",
+      "avro.java.string": "String"
+    }, {
+      "name": "customeId",
+      "type": "string",
+      "avro.java.string": "String"
+    }, 
+    {
+      "name": "countryName",
+      "type": "string",
+      "avro.java.string": "String"
+    }
+    
+  ]
+}
